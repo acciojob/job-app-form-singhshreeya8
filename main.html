@@ -11,48 +11,65 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	
 	<form method="post">
+		<h1>Job App Form</h1>
+		<div>
 		<label for="name">Name*</label>
 		<input type="text" name="name" id="name" required="required">
+		</div>
+		<br>
 		
+		<div>
 		<label for="email">Email*</label>
 		<input type="email" name="email" id="email" required="required">
-
+		</div>
+		<br>
 		
-		
-	   <label for="gender">Gender*</label>
+		<div>
+	    <label for="gender">Gender*</label>
         <input type="radio" name="gender" id="gender" value="Male" required="required">Male
-        <label for="male">Male</label>
         <input type="radio" name="gender" id="gender" value="Female" required="required">Female
-        <label for="Female">Female</label>
+		</div>
+		<br>
 
-		
-
+	    <div>
 		<label for="laptopBrands">Laptop Brands</label>
-    <select id="laptopBrands">
-    <option value="apple">Apple</option>
-    <option value="asus">Asus</option>
-    <option value="hp">HP</option>
-  </select>
-		
+        <select id="laptopBrands">
+        <option value="apple">Apple</option>
+        <option value="asus">Asus</option>
+        <option value="hp">HP</option>
+        </select>
+		</div>
+		<br>
+
+		<div>
 		<label for="age">Age*</label>
 		<input type="number" name="age" id="age" min="18" max="150" required="required">
-
+		</div>
+		<br>
+			
+		<div>
 		<label for="dob">DOB*</label>
 		<input type="date" name="dob" id="dob" required="required">
+		</div>
+		<br>
 
-
+		<div>
 		<label for="password">Password*</label>
 		<input type="password" name="password" id="password" required="required">
+		</div>
+		<br>
 
+		<div
 		<label for="portfolio">Portfolio</label>
-  <input type="url" name="portfolio" id="portfolio">
+        <input type="url" name="portfolio" id="portfolio">
+		</div>
+		<br>
 
-		<button type="submit" name="submit" value="submit"></button>
-
-		
-
-		
+		<div>
+		<button type="submit" name="submit" value="submit">Submit</button>
+		</div>		
 	</form>
 
 </body>
