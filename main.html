@@ -10,51 +10,56 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<form id="My Form" method="post">
+<dev>
+	<label for="name">1. Name</label>
+	<input type="date" id="name" placeholder="Name" required>
+		</dev>
+		<dev>
+	<label for="email">2. Email</label>
+	<input type="email" id="email" placeholder="Email" required >
+</dev>
+		<dev>
+	
+			<label for="gender">3. M</label>
+	<input type="radio" name="gender" placeholder="gender" required>
+	<label for="gender">F</label>
+	<input type="radio" name="gender" placeholder="gender" required>
+		</dev>
+		<dev>
+	<label for="laptop">4.Choose your Laptop</label>
+			  <select name="laptop" id="laptop" required>
+				  <option value="" disabled selected>--Please choose an option--</option>
+		<option value=""laptop">Apple</option>
+		<option value=""laptop">Asus</option>
+		<option value=""laptop">HP</option>
+	</select>
+			</dev>
+		<dev>
+	<label for="age">5. Age</label>
+	<input type="number" id="age" placeholder="Age" required>
+		</dev>
+			<dev>
+	<label for="portfolio">6. portfolio</label>
+	<input type="url" id="portfolio"	name="portfolio">
+	
+		</dev>
+		<dev>
+	<label for="dob">7. DOB</label>
+	<input type="date" id="dob" placeholder="DOB" required>
+		</dev>
 
-	<form method="POST">
-  <label for="name">1.Name*</label>
-  <input type="text" id="name" name="name" required>
+		<dev>
+	<label for="password">8. Password</label>
+	<input type="password" id="password" placeholder="Password" required>
+		</dev>
+	
+		<dev>
+	<label for="name">9. Sumit button</label>
+	<button type="submit" >Sumit</button>
+		</dev>
 
-  <label for="email">2.Email*</label>
-  <input type="email" id="email" name="email" required>
-
-  <label>3.Gender*</label>
-  <div>
-    <input type="radio" id="genderMale" name="gender" value="male" required>
-    <label for="genderMale">Male</label>
-  </div>
-  <div>
-    <input type="radio" id="genderFemale" name="gender" value="female" required>
-    <label for="genderFemale">Female</label>
-  </div>
-  <div>
-    <input type="radio" id="genderOther" name="gender" value="other" required>
-    <label for="genderOther">Other</label>
-  </div>
-
-  <label for="laptop">4.Laptop Brands</label>
-  <select id="laptop" name="laptop">
-    <option value="Apple">Apple</option>
-    <option value="Asus">Asus</option>
-    <option value="HP">HP</option>
-  </select>
-
-  <label for="age">5.Age*</label>
-  <input type="number" id="age" name="age" required>
-
-  <label for="dob">6.DOB*</label>
-  <input type="date" id="dob" name="dob" required>
-
-  <label for="password">7.Password*</label>
-  <input type="password" id="password" name="password" required>
-
-  <label for="portfolio">8.Portfolio URL</label>
-  <input type="url" id="portfolio" name="portfolio">
-		
-
-		
-<label for="name">9.Sumit button</label>
-  <input type="submit" value="Submit">
+</form>
 </form>
 
 
