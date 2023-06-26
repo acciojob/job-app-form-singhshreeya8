@@ -11,66 +11,49 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
-	
-	<form method="post">
-		<h1>Job App Form</h1>
-		<div>
-		<label for="name">Name</label>
-		<input type="text" name="name" id="name" required="required">
-		</div>
-		<br>
-		
-		<div>
-		<label for="email">Email</label>
-		<input type="email" name="email" id="email" required="required">
-		</div>
-		<br>
-		
-		<div>
-	    <label for="gender">Gender</label>
-        <input type="radio" name="gender" id="gender" value="Male" required="required">Male
-        <input type="radio" name="gender" id="gender" value="Female" required="required">Female
-		</div>
-		<br>
+	<form method="POST">
+  <label for="name">Name*</label>
+  <input type="text" id="name" name="name" required>
 
-	    <div>
-		<label for="laptopBrands">Laptop Brands</label>
-        <select id="laptopBrands">
-        <option value="apple">Apple</option>
-        <option value="asus">Asus</option>
-        <option value="hp">HP</option>
-        </select>
-		</div>
-		<br>
+  <label for="email">Email*</label>
+  <input type="email" id="email" name="email" required>
 
-		<div>
-		<label for="age">Age</label>
-		<input type="number" name="age" id="age" min="18" max="150" required="required">
-		</div>
-		<br>
-			
-		<div>
-		<label for="dob">DOB*</label>
-		<input type="date" name="dob" id="dob" required="required">
-		</div>
-		<br>
+  <label>Gender*</label>
+  <div>
+    <input type="radio" id="genderMale" name="gender" value="male" required>
+    <label for="genderMale">Male</label>
+  </div>
+  <div>
+    <input type="radio" id="genderFemale" name="gender" value="female" required>
+    <label for="genderFemale">Female</label>
+  </div>
+  <div>
+    <input type="radio" id="genderOther" name="gender" value="other" required>
+    <label for="genderOther">Other</label>
+  </div>
 
-		<div>
-		<label for="password">Password</label>
-		<input type="password" name="password" id="password" required="required">
-		</div>
-		<br>
+  <label for="laptop">Laptop Brands</label>
+  <select id="laptop" name="laptop">
+    <option value="Apple">Apple</option>
+    <option value="Asus">Asus</option>
+    <option value="HP">HP</option>
+  </select>
 
-		<div
-		<label for="portfolio">Portfolio</label>
-        <input type="url" name="portfolio" id="portfolio" required="required">
-		</div>
-		<br>
+  <label for="age">Age*</label>
+  <input type="number" id="age" name="age" required>
 
-		<div>
-		<button type="submit" name="submit" value="submit">Submit</button>
-		</div>		
-	</form>
+  <label for="dob">DOB*</label>
+  <input type="date" id="dob" name="dob" required>
+
+  <label for="password">Password*</label>
+  <input type="password" id="password" name="password" required>
+
+  <label for="portfolio">Portfolio URL</label>
+  <input type="url" id="portfolio" name="portfolio">
+
+  <input type="submit" value="Submit">
+</form>
+
 
 </body>
 
